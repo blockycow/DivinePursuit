@@ -3,8 +3,13 @@
   "resourceVersion": "1.6",
   "name": "DivinePursuit",
   "resources": [
+    {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},"order":0,},
     {"id":{"name":"sTest","path":"sprites/sTest/sTest.yy",},"order":0,},
+    {"id":{"name":"Say","path":"scripts/Say/Say.yy",},"order":2,},
+    {"id":{"name":"GameManager","path":"scripts/GameManager/GameManager.yy",},"order":1,},
+    {"id":{"name":"StringWrap","path":"scripts/StringWrap/StringWrap.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -12,7 +17,7 @@
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",

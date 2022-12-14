@@ -1,0 +1,16 @@
+global.currentChar = 0;
+global.currentCharacter[0] = 0;
+global.textLast = 0;
+global.text[0] = "Good morning!";
+global.names[0] = "Tisha";
+
+global.currentPlayer = 0;
+global.loveScore  = 
+[
+    [0,0,0,0,0,0],
+    [0,0,0,0,0,0]
+]
+
+function GameManager(){
+
+}
