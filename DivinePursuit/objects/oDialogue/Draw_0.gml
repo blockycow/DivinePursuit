@@ -1,0 +1,18 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+draw_set_font(fDialogue);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_colour(c_white);
+
+var _len = string_length(global.text[text_current]);
+	if (char_current < _len)
+	{
+		char_current += char_speed;
+	}
+
+var _str = string_copy(global.text[text_current], 1, char_current);
+draw_text(text_x, text_y,  _str);
+
+draw_text(180, 650, global.names[text_current]);
