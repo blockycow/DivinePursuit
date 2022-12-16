@@ -1,5 +1,5 @@
-global.currentChar = 0;
-global.currentCharacter[0] = 0;
+global.currentActr = 0;
+global.currentActor[0] = 0;
 global.textLast = 0;
 global.text[0] = "Good morning!";
 global.names[0] = "Tisha";
