@@ -26,7 +26,7 @@ else	//skip text
 		char_current = 0;
 	}
 	
-if(array_length(global.text)>1)
+if(array_length(global.text)>1 && global.dialogue)
 {
 	global.dialogueBox.visible = true;
 	global.nameBox.visible = true;
