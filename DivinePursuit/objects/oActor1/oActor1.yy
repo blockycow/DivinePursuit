@@ -27,10 +27,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"defaultX","path":"objects/pActor/pActor.yy",},"objectId":{"name":"pActor","path":"objects/pActor/pActor.yy",},"value":"128",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"defaultY","path":"objects/pActor/pActor.yy",},"objectId":{"name":"pActor","path":"objects/pActor/pActor.yy",},"value":"256",},
   ],
   "parent": {
     "name": "Actors",
