@@ -2,5 +2,6 @@
 // You can write your code in this editor
 
 var lay_id = layer_get_id("Background");
-var back_id = layer_background_get_id(lay_id);
-layer_background_sprite(back_id, sHallway);
+layer_background_sprite(lay_id, sBathroom);
+layer_background_sprite(layer_get_id("Background"),sBathroom);
+show_debug_message("hloooooo??????");
