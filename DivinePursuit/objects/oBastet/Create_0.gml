@@ -8,11 +8,11 @@ Say(3, "Bastet", "hello there suga, what are you doing here… wait you cant be�
 Say(1, "Mattanos", "what is wrong with you, ugh this is why 3D girls are so annoying.");
 Say(3, "Bastet", "hahaha… this is why you will never get a girlfriend.");
 Choice(2,"as if you have any experience on this matter", "you never know what might happen");
-if (global.chosen = 1) {
+if (global.chosen == 1) {
 	 Say(3, "Bastet", "ohh suga that is place you do not want to go");
-}
-	 
-else { 
+}	 
+else 
+{ 
 	Say(3, "Bastet", "well at least you have got the motivation right.");
 	Say(1, "Mattanos", "What do you mean by that?");
 	Say(3, "Bastet", "he, lets just see");

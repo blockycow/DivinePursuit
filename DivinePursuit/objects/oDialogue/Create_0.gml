@@ -22,6 +22,7 @@ global.chrMiddle = instance_find(oActor2,0);
 global.chrRight = instance_find(oActor3,0);
 
 
+
 text_current = 0;
 text_width = 1500;
 text_x = 200;

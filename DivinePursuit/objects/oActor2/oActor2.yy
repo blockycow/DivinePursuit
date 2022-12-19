@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oActor2",
-  "spriteId": {
-    "name": "sVera",
-    "path": "sprites/sVera/sVera.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -8,7 +8,7 @@ Say(3, "Medusa", "I fully agree with what you are saying. It is too dangerous to
 Say(1, "Stan", "I understand you, we need to make sure to pilot it correctly and maybe even sacrifice a goat for it.");
 Say(3, "Medusa", "and then let’s go against the… wait what are you talking about?");
 Choice(1,"yes", "Oh I did not see you there");
-if (global.chosen = 1) {
+if (global.chosen == 1) {
 	 Say(3, "Medusa", "What is that for an answer?");
 	 Say(3, "Medusa", "hey do not walk away, what is with this guy?");
 	

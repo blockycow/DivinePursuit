@@ -17,7 +17,6 @@ function SkipText()
 }
 
 
-
 if(global.dialogue)
 {
 	var _len = string_length(global.conversations[global.textCurrent][2]);
@@ -32,9 +31,9 @@ if(global.dialogue)
 			SkipText();
         }
     } 
-	if (global.textCurrent == global.textLast && char_current >= _len && array_length(global.conversations[global.textCurrent][2]) > 1)
+	if (global.textCurrent == global.textLast && char_current >= _len && array_length(global.conversations) > 1)
 	{
-		
+		global.dialogue = false;
 		array_delete(global.conversations,1,array_length(global.conversations)-1);
 		global.textLast = 0;
 		global.textCurrent = 0;
