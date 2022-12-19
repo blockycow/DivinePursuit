@@ -18,6 +18,7 @@ if (mouse_check_button_released(mb_left))
 	
 	if(hovering)
 	{
+		global.chosen = buttonNumber;
 		if(buttonNumber == global.choices[1][0])		
 		{
 			global.loveScore[global.currentPlayer][global.currentCharacter]++;

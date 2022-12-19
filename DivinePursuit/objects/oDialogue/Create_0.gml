@@ -25,7 +25,7 @@ global.chrRight = instance_find(oActor3,0);
 text_current = 0;
 text_width = 1500;
 text_x = 200;
-text_y = 775;
+text_y = 750;
 
 char_current = 1;
 global.char_speed = 0.5;
