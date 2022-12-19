@@ -15,6 +15,18 @@ global.loveScore  = 
     [0,0,0,0,0,0]
 ]
 
+enum Location {
+	None,
+	Classroom,
+	Sport,
+	Dorms,
+	Toilet,
+	Library,
+	Abandoned
+}
+
+global.currentLocation = Location.None;
+
 function GameManager(){
 
 }

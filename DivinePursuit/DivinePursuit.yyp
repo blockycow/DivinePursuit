@@ -12,6 +12,7 @@
     {"id":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"order":2,},
     {"id":{"name":"rCharacterSelect","path":"rooms/rCharacterSelect/rCharacterSelect.yy",},"order":2,},
     {"id":{"name":"rGameEnd","path":"rooms/rGameEnd/rGameEnd.yy",},"order":3,},
+    {"id":{"name":"oLocation","path":"objects/oLocation/oLocation.yy",},"order":4,},
     {"id":{"name":"oStandur","path":"objects/oStandur/oStandur.yy",},"order":5,},
     {"id":{"name":"sGreyBox","path":"sprites/sGreyBox/sGreyBox.yy",},"order":6,},
     {"id":{"name":"oOmen","path":"objects/oOmen/oOmen.yy",},"order":3,},
@@ -23,6 +24,7 @@
     {"id":{"name":"oActor1","path":"objects/oActor1/oActor1.yy",},"order":1,},
     {"id":{"name":"oVera","path":"objects/oVera/oVera.yy",},"order":1,},
     {"id":{"name":"oEros","path":"objects/oEros/oEros.yy",},"order":2,},
+    {"id":{"name":"rMap","path":"rooms/rMap/rMap.yy",},"order":4,},
     {"id":{"name":"oActor3","path":"objects/oActor3/oActor3.yy",},"order":3,},
     {"id":{"name":"oActor2","path":"objects/oActor2/oActor2.yy",},"order":2,},
     {"id":{"name":"oLefi","path":"objects/oLefi/oLefi.yy",},"order":1,},
@@ -57,6 +59,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rMap","path":"rooms/rMap/rMap.yy",},},
     {"roomId":{"name":"rDialogue","path":"rooms/rDialogue/rDialogue.yy",},},
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"roomId":{"name":"rCharacterSelect","path":"rooms/rCharacterSelect/rCharacterSelect.yy",},},
