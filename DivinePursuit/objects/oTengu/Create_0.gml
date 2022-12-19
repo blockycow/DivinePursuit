@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //day 1
-Say(4, "Nar","The first time you are in a class that is so interesting you do not fall asleep immediately… or is it because your classmate got a free trip to Ginnungagap when he tried it. Either way you paid attention to the lesson and while you do not understand much of it (you do know that you will not sign up for any more lost Nordic runes lesson).");
+Say(4, "Nar","The first time you are in a class that is so interesting you do not fall asleep immediately... or is it because your classmate got a free trip to Ginnungagap when he tried it. Either way you paid attention to the lesson and while you do not understand much of it (you do know that you will not sign up for any more lost Nordic runes lesson).");
 Say(1, "Levi","okaaayyy, that was one of the most terrifying experiences of my life what was that big black thing anyway he called it... gun in a gap or something?");
 Say(3, "Tengu", "Ginnungagap is how you pronounce it you absolute moron! How can you not even remember something as simple as that! It looks like you just want to sleep the entire lesson and not even attempting to pay attention to the lesson.");
 Say(1, "Levi", "Heeeeyyy I was trying to pay attention, but it is nearly impossible to understand.");
@@ -16,6 +16,6 @@ if (global.chosen == 1) {
 	
 }	 
 else { 
-	Say(3, "Medusa", "I have been talking to you the entire time you dunce.");	
+	Say(3, "Tengu", "Eeugh you really have absolutely no shame do you I can understand why my peers dislike you lower races.");	
 }
 
