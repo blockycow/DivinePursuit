@@ -59,8 +59,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rDialogue","path":"rooms/rDialogue/rDialogue.yy",},},
     {"roomId":{"name":"rMap","path":"rooms/rMap/rMap.yy",},},
+    {"roomId":{"name":"rDialogue","path":"rooms/rDialogue/rDialogue.yy",},},
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
     {"roomId":{"name":"rCharacterSelect","path":"rooms/rCharacterSelect/rCharacterSelect.yy",},},
     {"roomId":{"name":"rGameEnd","path":"rooms/rGameEnd/rGameEnd.yy",},},

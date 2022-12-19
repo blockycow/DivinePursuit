@@ -5,6 +5,7 @@ eventMap = ds_map_create();
 
 enum Event {
 	NextDialogueText,
+	DialogueStart,
 	DialogueEnd,
 	TurnEnd,
 	TurnStart,
