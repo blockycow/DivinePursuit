@@ -17,5 +17,3 @@ else {
 	Say(1, "Omen", "While that sounds fun, it also sounds kind a scary... (also should not mention that she most likely is also down there).");
 }
 
-
-  	
