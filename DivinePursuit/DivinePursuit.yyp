@@ -5,7 +5,6 @@
   "resources": [
     {"id":{"name":"oThor","path":"objects/oThor/oThor.yy",},"order":5,},
     {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"oDialogue","path":"objects/oDialogue/oDialogue.yy",},"order":0,},
     {"id":{"name":"pActor","path":"objects/pActor/pActor.yy",},"order":0,},
     {"id":{"name":"pCharacter","path":"objects/pCharacter/pCharacter.yy",},"order":0,},
@@ -17,7 +16,6 @@
     {"id":{"name":"sGreyBox","path":"sprites/sGreyBox/sGreyBox.yy",},"order":6,},
     {"id":{"name":"oOmen","path":"objects/oOmen/oOmen.yy",},"order":3,},
     {"id":{"name":"sVera","path":"sprites/sVera/sVera.yy",},"order":0,},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":1,},
     {"id":{"name":"oNameBox","path":"objects/oNameBox/oNameBox.yy",},"order":1,},
     {"id":{"name":"oMattanos","path":"objects/oMattanos/oMattanos.yy",},"order":2,},
     {"id":{"name":"sBathroom","path":"sprites/sBathroom/sBathroom.yy",},"order":1,},
