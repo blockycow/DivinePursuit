@@ -17,10 +17,10 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"InstancesUp","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_295535A3","properties":[],"isDnd":false,"objectId":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":26.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_295535A3","properties":[],"isDnd":false,"objectId":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":3692829724,"rotation":0.0,"scaleX":26.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32C244F2","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"buttonNumber","path":"objects/oChoiceButton/oChoiceButton.yy",},"objectId":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"value":"1",},
-          ],"isDnd":false,"objectId":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":26.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":832.0,},
+          ],"isDnd":false,"objectId":{"name":"oChoiceButton","path":"objects/oChoiceButton/oChoiceButton.yy",},"inheritCode":false,"hasCreationCode":false,"colour":3692829724,"rotation":0.0,"scaleX":26.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":832.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F29BFBA","properties":[

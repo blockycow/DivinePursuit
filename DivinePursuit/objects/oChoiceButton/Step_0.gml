@@ -8,13 +8,13 @@ hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), 
 if (hovering && mouse_check_button_pressed(mb_left)) 
 {
 	clicked = true;
-	image_blend = c_gray;
+	image_blend = c_grey;
 } 
 
 if (mouse_check_button_released(mb_left)) 
 {
 	clicked = false;
-	image_blend = c_white;
+	image_blend = c_dkgrey;
 	
 	if(hovering)
 	{
