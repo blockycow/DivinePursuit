@@ -1,33 +1,50 @@
 /// pressing space let's you either skip the line, or if it's already drawn, the text.
 
+function SkipText()
+{
+	global.textCurrent += 1;
+	global.currentActr = global.conversations[global.textCurrent][0];
+	if(global.conversations[global.textCurrent][2] == "choice")
+	{
+		global.dialogue = false;
+		global.choice = true;
+		instance_activate_object(oChoiceButton);
+	} else
+	{
+		global.conversations[global.textCurrent][2] = StringWrap(global.conversations[global.textCurrent][2], text_width);	
+	}	
+	char_current = 0;
+}
+
+
+
 if(global.dialogue)
 {
-	var _len = string_length(global.conversations[text_current][2]);
+	var _len = string_length(global.conversations[global.textCurrent][2]);
 	if (char_current < _len)	//skip line
 	{
 		char_current = _len;
     }
 	else	//skip text
     {    
-		if (text_current < global.textLast)
+		if (global.textCurrent < global.textLast)
         {       
-			text_current += 1;
-			global.currentActr = global.conversations[text_current][0];
-			global.conversations[text_current][2] = StringWrap(global.conversations[text_current][2], text_width);
-			char_current = 0;
+			SkipText();
         }
     } 
-	if (text_current == global.textLast && char_current >= _len && array_length(global.conversations[text_current][2]) > 1)
+	if (global.textCurrent == global.textLast && char_current >= _len && array_length(global.conversations[global.textCurrent][2]) > 1)
 	{
 		
 		array_delete(global.conversations,1,array_length(global.conversations)-1);
 		global.textLast = 0;
-		text_current = 0;
+		global.textCurrent = 0;
 		char_current = 0;
 	}
 }
+
+
 	
-if(array_length(global.conversations)>1)
+if(array_length(global.conversations)>1 && global.dialogue)
 {
 	global.dialogueBox.visible = true;
 	global.nameBox.visible = true;

@@ -8,13 +8,13 @@ draw_set_colour(c_white);
 
 
 
-var _len = string_length(global.conversations[text_current][2]);
+var _len = string_length(global.conversations[global.textCurrent][2]);
 	if (char_current < _len)
 	{
 		char_current += global.char_speed;
 	}
 
-var _str = string_copy(global.conversations[text_current][2], 1, char_current);
+var _str = string_copy(global.conversations[global.textCurrent][2], 1, char_current);
 draw_text(text_x, text_y,  _str);
 
-draw_text(180, 650, global.conversations[text_current][1]);
+draw_text(180, 650, global.conversations[global.textCurrent][1]);

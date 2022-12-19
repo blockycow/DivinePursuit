@@ -2,8 +2,15 @@
 // You can write your code in this editor
 
 global.textLast = 0;
-//global.text[0] = "";
-//global.names[0] = "";
+
+for (var i = 0; i < instance_number(oChoiceButton); ++i;)
+{
+    choiceButtons[i] = instance_find(oChoiceButton,i);
+	instance_deactivate_object(oChoiceButton);
+}
+
+global.choice = false;
+
 
 global.dialogueBox = instance_find(oTextBox,0);
 global.nameBox = instance_find(oNameBox,0);
