@@ -19,4 +19,3 @@ else {
 	Say(3, "Thor", "That sounds way to tiring and boring. ME DO NOT THINK.");
 	
 }
-

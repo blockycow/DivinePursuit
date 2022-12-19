@@ -15,7 +15,4 @@ if (global.chosen = 1) {
 else { 
 	Say(3, "Durga", "As something dark that lies deep inside of your consciousness.");
 	Say(1, "Omen", "While that sounds fun, it also sounds kind a scary… (also should not mention that she most likely is also down there).");
-}
-
-
-  	
+}  	
