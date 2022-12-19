@@ -3,6 +3,7 @@ global.textCurrent = 0;
 global.textLast = 0;
 global.conversations = [[0,"","",""]]
 global.choices = [[0,"",""]];
+global.chosen = 0;
 global.dialogue = false;
 global.currentDay = 0;
 
