@@ -31,3 +31,8 @@ char_current = 1;
 global.char_speed = 0.5;
 
 global.dialogue = true;
+
+function Testing()
+{
+	show_debug_message("testing testing");	
+}

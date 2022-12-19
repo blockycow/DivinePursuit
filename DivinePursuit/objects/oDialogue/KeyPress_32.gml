@@ -1,4 +1,4 @@
-/// pressing space let's you either skip the line, or if it's already drawn, the text.
+/// @description pressing space let's you either skip the line, or if it's already drawn, the text.
 
 function SkipText()
 {

@@ -6,8 +6,6 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_colour(c_white);
 
-
-
 var _len = string_length(global.conversations[global.textCurrent][2]);
 	if (char_current < _len)
 	{
