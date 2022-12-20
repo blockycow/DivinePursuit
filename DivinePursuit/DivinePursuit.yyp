@@ -48,6 +48,7 @@
     {"id":{"name":"oEventManager","path":"objects/oEventManager/oEventManager.yy",},"order":6,},
     {"id":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},"order":1,},
     {"id":{"name":"sLefi","path":"sprites/sLefi/sLefi.yy",},"order":5,},
+    {"id":{"name":"oCharacterSelect","path":"objects/oCharacterSelect/oCharacterSelect.yy",},"order":5,},
     {"id":{"name":"EventRegister","path":"scripts/EventRegister/EventRegister.yy",},"order":5,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":3,},
     {"id":{"name":"sBastet","path":"sprites/sBastet/sBastet.yy",},"order":0,},
@@ -72,10 +73,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rCharacterSelect","path":"rooms/rCharacterSelect/rCharacterSelect.yy",},},
     {"roomId":{"name":"rDialogue","path":"rooms/rDialogue/rDialogue.yy",},},
     {"roomId":{"name":"rMap","path":"rooms/rMap/rMap.yy",},},
     {"roomId":{"name":"rTitleScreen","path":"rooms/rTitleScreen/rTitleScreen.yy",},},
-    {"roomId":{"name":"rCharacterSelect","path":"rooms/rCharacterSelect/rCharacterSelect.yy",},},
     {"roomId":{"name":"rGameEnd","path":"rooms/rGameEnd/rGameEnd.yy",},},
   ],
   "Folders": [
