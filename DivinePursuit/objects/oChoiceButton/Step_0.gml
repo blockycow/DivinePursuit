@@ -23,13 +23,13 @@ if (mouse_check_button_released(mb_left))
 		{
 			global.loveScore[global.currentPlayer][global.currentCharacter]++;
 		}		
+		array_delete(global.choices,0,1);
+		
 		instance_deactivate_object(oChoiceButton);
 		global.dialogueBox.visible = true;
 		global.nameBox.visible = true;
 		global.textCurrent++;
 		global.dialogue = true;
 		global.choice = false;
-		
-		show_debug_message(global.loveScore[global.currentPlayer][global.currentCharacter]);
 	}
 } 

@@ -38,10 +38,12 @@ if(global.dialogue)
 		global.textLast = 0;
 		global.textCurrent = 0;
 		char_current = 0;
+		
+		global.currentPlayer++;
+		if(global.currentPlayer>1){global.currentPlayer = 0;}
+		room_goto(rDialogue);
 	}
 }
-
-
 	
 if(array_length(global.conversations)>1 && global.dialogue)
 {

@@ -25,7 +25,7 @@ if (mouse_check_button_released(mb_left))
 		global.currentPlayer++;
 		if(global.currentPlayer>1){
 			global.currentPlayer=0;
-			room_goto(rMap);
+			room_goto(rDialogue);
 		}
 		
 	}

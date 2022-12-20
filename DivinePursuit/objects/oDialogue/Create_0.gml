@@ -33,7 +33,5 @@ global.char_speed = 0.5;
 
 global.dialogue = true;
 
-function Testing()
-{
-	show_debug_message("testing testing");	
-}
+instance_create_layer(x, y, "Instances", asset_get_index("o" + global.chosenCharacter[global.currentPlayer]));
+show_debug_message("start dialogue");

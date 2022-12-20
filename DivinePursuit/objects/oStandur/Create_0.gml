@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//day 1
+layer_background_sprite(layer_background_get_id("Background"),sBathroom);
 Say(4, "Nar","Okay lets just be honest... a new world you can handle… gods as well, but why is the toilet literally an infinite void... when you asked the teacher he said ‘’ all that exists comes from the void and goes there as well, so we just speed up the process’’.");
 Say(1, "Standur","Okay so the thought behind sending things to the void is to speed up the process of existing, while i understand the topic, i fail to see how this is even remotely safe for humans.");
 Say(3, "Medusa", "I fully agree with what you are saying. It is too dangerous to have something like this in an area with humans!");
@@ -18,5 +18,7 @@ else {
 	Say(3, "Medusa", "I have been talking to you the entire time you dunce.");
 	
 }
+
+
 
 
