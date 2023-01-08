@@ -4,11 +4,9 @@
 ///@arg script
 ///@arg other args
 
+function EventRegister(event, oID){
 with(oEventManager)
-{
-	var event = argument[0];
-	var oID = argument[1];
-	
+{	
 	if(!ds_map_exists(eventMap, event))
 	{
 		var listenerList = ds_list_create();
@@ -30,4 +28,5 @@ with(oEventManager)
 	
 	//add listener info to listener list
 	ds_list_add(listenerInfo,listenerList);
+}	
 }
