@@ -32,6 +32,7 @@
     {"id":{"name":"sThor","path":"sprites/sThor/sThor.yy",},"order":4,},
     {"id":{"name":"oBlinky","path":"objects/oBlinky/oBlinky.yy",},"order":4,},
     {"id":{"name":"sStandur","path":"sprites/sStandur/sStandur.yy",},"order":3,},
+    {"id":{"name":"oFlanky","path":"objects/oFlanky/oFlanky.yy",},"order":6,},
     {"id":{"name":"script_execute_alt","path":"scripts/script_execute_alt/script_execute_alt.yy",},"order":8,},
     {"id":{"name":"sCastleMap","path":"sprites/sCastleMap/sCastleMap.yy",},"order":8,},
     {"id":{"name":"oEros","path":"objects/oEros/oEros.yy",},"order":2,},
