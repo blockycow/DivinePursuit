@@ -61,6 +61,7 @@ if (place_meeting(x, y, oWeapon)) {
 	var _col = instance_nearest(x, y, oWeapon);
 	with (_col) {
 		other.currentScore += points;
+		EventFire(Event.MinigameStart);
 		instance_destroy();
 	}
 }

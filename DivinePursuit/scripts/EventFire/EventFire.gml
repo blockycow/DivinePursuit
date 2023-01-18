@@ -12,7 +12,7 @@ function EventFire(event){
 			var listenerInfo, listener, _script, args;
 			var i = 0; repeat(len){
 				//get variables for current listener
-				listenerInfo = listener[| i];
+				listenerInfo = listenerList[| i];
 				listener = listenerInfo[0];
 				_script = listenerInfo[1];
 				
@@ -39,8 +39,7 @@ function EventFire(event){
 				if(unregister){
 					EventUnregister(event, listener);
 					i--;
-				}
-				
+				}				
 				i++;
 			}
 		}

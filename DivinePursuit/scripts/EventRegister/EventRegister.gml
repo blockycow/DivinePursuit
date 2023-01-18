@@ -4,7 +4,7 @@
 ///@arg script
 ///@arg other args
 
-function EventRegister(event, oID){
+function EventRegister(event, oID, scriptArray){
 with(oEventManager)
 {	
 	if(!ds_map_exists(eventMap, event))
@@ -20,13 +20,13 @@ with(oEventManager)
 	//add listener id
 	listenerInfo[0] = oID;
 	//add script and args
-	var len = argument_count-2;
+	var len = array_length(scriptArray);
 	var i = 0; repeat(len){
-		listenerInfo[i+1] = argument[i+2];
+		listenerInfo[i+1] = scriptArray[i];
 		i++;	
 	}
 	
 	//add listener info to listener list
-	ds_list_add(listenerInfo,listenerList);
+	ds_list_add(listenerList,listenerInfo);
 }	
 }
