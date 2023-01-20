@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room1",
+  "name": "Snake",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -27,9 +27,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_3FEE8B3","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3A0AC422","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4D7FCD5E","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_3FEE8B3","path":"rooms/Snake/Snake.yy",},
+    {"name":"inst_3A0AC422","path":"rooms/Snake/Snake.yy",},
+    {"name":"inst_4D7FCD5E","path":"rooms/Snake/Snake.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

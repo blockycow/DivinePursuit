@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Snake",
+    "path": "folders/Objects/Minigames/Snake.yy",
   },
 }
