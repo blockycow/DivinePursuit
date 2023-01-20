@@ -1,8 +1,8 @@
 
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_up = keyboard_check(vk_up);
-key_down = keyboard_check(vk_down);
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
+key_up = keyboard_check(ord("W"));
+key_down = keyboard_check(ord("S"));
 
 // Keys Pressed
 if (key_right && moveDirection != 2) { moveDirection = 0; }
@@ -12,7 +12,7 @@ else if (key_down && moveDirection != 1) { moveDirection = 3; }
 
 
 moveCounter = moveDistance;
- if (xprevious%32 == 0 && yprevious%32 == 0){  
+ if (x%32 == 0 && y%32 == 0){  
     // Set Speed and Direction
     switch (moveDirection) {
         case 0:
@@ -56,11 +56,9 @@ length += 1;
 array_push(tails,inst);
 
 
-
-var randX = floor(random(room_width/32)) * 32;
-var randY = floor(random(room_width/32)) * 32;
-
-instance_create_layer(randX, randY, "Instances", Obj_food);
+var rand = irandom(1024);
+rand = floor(random(room_width/32)) * 32;
+instance_create_layer(rand, rand, "Instances", Obj_food);
 }
 
 if (place_meeting(x, y, Obj_Snaketail)) {
@@ -72,6 +70,6 @@ if (place_meeting(x, y, Obj_Snaketail)) {
 	}    
 }
 
-if (place_meeting(x, y, Obj_Snakehead1)) {
+if (place_meeting(x, y, Obj_Snakehead)) {
 	room_restart(); 
 }
