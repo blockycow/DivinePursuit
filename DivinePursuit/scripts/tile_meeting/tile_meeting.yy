@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "SeekScripts",
-    "path": "folders/Scripts/Minigames/SeekScripts.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
 }

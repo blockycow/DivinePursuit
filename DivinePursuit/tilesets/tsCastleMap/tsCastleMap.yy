@@ -2,10 +2,7 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tsCastleMap",
-  "spriteId": {
-    "name": "sCastleMap",
-    "path": "sprites/sCastleMap/sCastleMap.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,
