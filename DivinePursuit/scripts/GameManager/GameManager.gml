@@ -3,7 +3,7 @@ global.textCurrent = 0;
 global.textLast = 0;
 global.conversations = [[0,"","",""]]
 global.choices = [[0,"","","",""]];
-global.chosen = 0;
+global.chosen = -1;
 global.dialogue = false;
 
 global.chosenCharacter = ["",""];
@@ -13,7 +13,8 @@ global.loveScore  = 
 [
     [0,0,0,0,0,0],
     [0,0,0,0,0,0]
-]
+];
+global.playerScore = [0,0];
 
 enum Location {
 	None,
