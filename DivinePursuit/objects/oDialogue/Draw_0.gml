@@ -13,6 +13,11 @@ var _len = string_length(global.conversations[global.textCurrent][2]);
 	}
 
 var _str = string_copy(global.conversations[global.textCurrent][2], 1, char_current);
-draw_text(text_x, text_y,  _str);
 
-draw_text(150, 655, global.conversations[global.textCurrent][1]);
+
+if(_str != "choice")
+{
+	draw_text(text_x, text_y,  _str);
+
+	draw_text(150, 655, global.conversations[global.textCurrent][1]);
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oButton",
+  "name": "pButton",
   "spriteId": null,
   "solid": false,
   "visible": true,

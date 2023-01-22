@@ -7,7 +7,7 @@ Say(1, "Mattanos","Just what is going on here, I was certain there was something
 Say(3, "Bastet", "hello there suga, what are you doing here... wait you cant be... wahaha... oh my god this is so funny.");
 Say(1, "Mattanos", "what is wrong with you, ugh this is why 3D girls are so annoying.");
 Say(3, "Bastet", "hahaha... this is why you will never get a girlfriend.");
-Choice(2,"as if you have any experience on this matter", "you never know what might happen");
+Choice(2,"as if you have any experience on this matter", "you never know what might happen", "me", "dunno");
 if (global.chosen == 1) {
 	 Say(3, "Bastet", "ohh suga that is place you do not want to go");
 }	 
