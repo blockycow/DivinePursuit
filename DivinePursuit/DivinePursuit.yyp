@@ -48,6 +48,7 @@
     {"id":{"name":"oActor2","path":"objects/oActor2/oActor2.yy",},"order":2,},
     {"id":{"name":"oLefi","path":"objects/oLefi/oLefi.yy",},"order":1,},
     {"id":{"name":"Obj_Snakehead","path":"objects/Obj_Snakehead/Obj_Snakehead.yy",},"order":1,},
+    {"id":{"name":"StartDialogue","path":"scripts/StartDialogue/StartDialogue.yy",},"order":1,},
     {"id":{"name":"sOmen","path":"sprites/sOmen/sOmen.yy",},"order":1,},
     {"id":{"name":"Background","path":"scripts/Background/Background.yy",},"order":4,},
     {"id":{"name":"oMedusa","path":"objects/oMedusa/oMedusa.yy",},"order":3,},
@@ -146,6 +147,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogues","folderPath":"folders/Scripts/Dialogues.yy","order":12,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
