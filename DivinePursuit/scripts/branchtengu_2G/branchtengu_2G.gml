@@ -1,4 +1,4 @@
-function branchtengu_2G(){ layer_background_sprite(layer_background_get_id("Background"), sLibrary);
+function branchtengu_2G(){ layer_background_sprite(layer_background_get_id("Background"), sfinalclassroom);
 //continuation of good path after branch one
 //location classroom
    Say(1, "Haya Ji", "Alright Freya, let's go to our first class. It's a magical history class, and I think you'll find it very interesting.")

@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function branchtengu_2B(){ layer_background_sprite(layer_background_get_id("Background"), sLibrary);
+function branchtengu_2B(){ layer_background_sprite(layer_background_get_id("Background"), sfinallibrary);
 Say(4, "Nar" , "As Freya and Haya Ji continue their tour of the school, Haya Ji takes her to the library. As they enter, Freya is in awe at the sight of ancient weapons and armor displayed on the walls and shelves.")
 Say(3, "Freya" , "Wow, this is amazing! What is all this?")
 Say(1, "Haya Ji","This is our library of ancient mythological weapons and armor. These are some of the most powerful and rare artifacts in the supernatural world.")
@@ -11,7 +11,7 @@ Say(1, "Haya Ji","That is the armor of Beowulf, a legendary hero from Norse myth
 Say(3, "Freya" , "I can't believe I'm seeing these things in person. They're so beautiful and powerful.")
 Say(1, "Haya Ji","Indeed, they are. And we have many more interesting items here. But remember, Freya, these weapons and armor are not to be taken lightly. They are powerful artifacts that should be used with caution.")
 
-Choice(1, "yea ill make sure to stay careful ", "oo whats this book","should this book be on the floor ", "I don't believe in pranking " )
+Choice(1, "yea ill make sure to stay careful ", "oo whats this book","should this book be on the floor ", "whats this thing? " )
 
 //dialogue to play if player choose option 1 
 Say(4, "Nar" , "As Haya Ji and Freya finish exploring the library, they leave the room and Haya Ji leads her towards the locker room.")

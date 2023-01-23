@@ -4,7 +4,7 @@
 //Continuation of the neutral path after branch one
 
 //location bathroom
-function branchtengu_2N(){ layer_background_sprite(layer_background_get_id("Background"), sLibrary);
+function branchtengu_2N(){ layer_background_sprite(layer_background_get_id("Background"), sfinalbathroom);
 Say(4, "Nar" , "The Pair head to the bathrooms where Freya is suprised to see that there is only one bathroom and their not seperated by gender ")
 	Say(3, "Freya" , "So uhh we both can just go in here?") 
 	Say(1, "Haya Ji" , "Yea gender is like a human thing at one point we even campaigned for a hole in the ground but the janiors kinda wanted to keep gettting their paychecks ")
